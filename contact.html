@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us - Meadow Brew Cafe</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Contact Information</h2>
+                <ul>
+                    <li>Phone: (123) 456-7890</li>
+                    <li>Email: <a href="mailto:info@meadowbrewcafe.com">info@meadowbrewcafe.com</a></li>
+                    <li>Address: 123 Meadow Lane, Brewtown, CA 90000</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Find Us</h2>
+                <iframe
+                    src="https://www.google.com/maps?q=123+Meadow+Lane,+Brewtown,+CA+90000&output=embed"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+            <section>
+                <h2>Send Us a Message</h2>
+                <form action="mailto:info@meadowbrewcafe.com" method="POST" enctype="text/plain">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                    
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2023 Meadow Brew Cafe</p>
+        </footer>
+    </body>
+</html>
